@@ -30,13 +30,13 @@ const Home = () => {
       <div className="cavani_tm_home relative w-full h-full flex items-center">
         <div className="content pl-[100px]">
           <h3 className="name text-[72px] font-bold uppercase mb-[30px]">
-            Shukur Khilkhal
+            Shukur Khilkhal 
           </h3>
           <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px]" />
           <TypingAnimation />
           <div className="cavani_tm_button transition_link">
             <a href="#contact" onClick={() => navChange("contact")}>
-              Schedule your first lesson!
+              Schedule your first Oud lesson!
             </a>
           </div>
         </div>
