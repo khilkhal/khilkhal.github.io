@@ -21,8 +21,8 @@ const Header = () => {
     <Fragment>
       <div className="cavani_tm_topbar fixed top-0 left-0 right-0 h-[50px] bg-white z-[15] hidden middle:block">
         <div className="topbar_inner w-full h-full clear-both flex items-center justify-between py-0 px-[20px]">
-          <div className="logo" data-type="image">
-            {" "}
+          <div className="logo" data-type="text">
+            {""}
             {/* You can use text or image as logo. data-type values are: "image" and "text"  */}
             <a className="image" href="#">
               <img
@@ -62,7 +62,7 @@ const Header = () => {
             <div className="avatar w-[70px] h-[70px] relative float-right mb-[60px]">
               <div
                 className="image absolute inset-0 bg-no-repeat bg-cover bg-center"
-                data-img-url="assets/img/about/1.jpg"
+                data-img-url="assets/img/Shukur/ShukurAlhasaniCover.jpg"
               />
             </div>
             <div className="menu_list w-full h-auto clear-both float-left mb-[50px]">
@@ -138,7 +138,7 @@ const Header = () => {
               </ul>
             </div>
             <div className="copyright w-full float-left">
-              <p className="text-[#333] font-poppins">Copyright © 2023</p>
+              <p className="text-[#333] font-poppins">Copyright <a href="https://www.naramalhasani.com">NOM</a> © 2023</p>
             </div>
           </div>
         </div>
