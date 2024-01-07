@@ -29,10 +29,22 @@ const Home = () => {
     <SectionContainer navName="home">
       <div className="cavani_tm_home relative w-full h-full flex items-center">
         <div className="content pl-[100px]">
+          
+        <div className="avatar w-[70px] h-[70px] relative mb-[60px]">
+              <div
+                className="image absolute inset-0 bg-no-repeat bg-cover bg-center"
+                data-img-url="assets/img/Shukur/ShukurAlhasaniCover.jpg"
+              />
+            </div>
+
           <h3 className="name text-[72px] font-bold uppercase mb-[30px]">
             Shukur Khilkhal 
           </h3>
+          
+          
           <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px]" />
+          <p></p>
+          
           <TypingAnimation />
           <div className="cavani_tm_button transition_link">
             <a href="#service" onClick={() => navChange("service")}>

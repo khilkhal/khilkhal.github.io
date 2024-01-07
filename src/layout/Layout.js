@@ -5,6 +5,8 @@ import { Fragment, useEffect } from "react";
 import Cursor from "./Cursor";
 import Footer from "./Footer";
 import Preloader from "./Preloader";
+import CalendlyEmbed from "../components/CalendlyEmbed";
+
 
 const Portfolio = dynamic(() => import("@/src/components/Portfolio"), {
   ssr: false,
@@ -26,7 +28,7 @@ const Layout = ({ children }) => {
       >
         <div className="cavani_tm_left_border fixed inset-y-0 left-0 w-[70px] bg-white z-[10]" />
         <div className="cavani_tm_right_border fixed inset-y-0 right-0 w-[70px] bg-white z-[10]" />
-
+        
         {/* HEADER */}
         <Header />
         {/* /HEADER */}

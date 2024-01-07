@@ -32,9 +32,9 @@ const Contact = () => {
                   <span className="block">
                     <a
                       className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
-                      href="#"
+                      href="mailto:skhilkhal@gmail.com"
                     >
-                      hello@cavani.com
+                      skhilkhal@gmail.com
                     </a>
                   </span>
                 </div>

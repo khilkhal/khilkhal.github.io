@@ -39,7 +39,8 @@ const CavaniHead = () => {
       <link rel="stylesheet" type="text/css" href="assets/css/owltheme.css" />
       <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
       <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-      
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"/>
+      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     </Head>
   );
 };

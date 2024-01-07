@@ -17,6 +17,7 @@ const About = () => {
   ];
 
   const services = [
+ 
     {
       desc: "Beautiful minimalist design and great, fast response with support. Highly recommend. Thanks Marketify!.",
       img: "img/testimonials/1.jpg",
@@ -44,24 +45,22 @@ const About = () => {
           <div className="biography w-full h-auto clear-both float-left mb-[87px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
               <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
-                About Me
+                About Shukur
               </span>
             </div>
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between mt-[55px]">
               {/* change this div classname to "left w-[40%]"*/}
               <div className="">
                 <p className="mb-[15px]">
-                  Hi! My name is <strong>Shukur Khilkhal.</strong> I am an Oud 
-                  player, composer, and educator. I have been playing the Oud for over 20 years,
-                  and have the experience and knowledge to help you learn this beautiful instrument.
-                  I teach students of all ages and levels, from beginners to advanced, and I am happy to teach 
-                  in English, or Arabic. I am currently based Washington DC metro area, and I am available for in-person lessons,
-                  or online lessons via Zoom, Skype, or FaceTime.
+                Shukur works in the fields of music, television production, and teaching the Oud. He established and managed Al-Aber Television Production Company in Baghdad, through which he produced a numerous television shows, 
+                including more than 150 hours of documentaries. He produced a number of artistic shows, the most famous of them was <strong>Al Aghani</strong>, for <strong>Al Hurra</strong> TV Channel in 2005. This show, in sixty hours of television, 
+                dealt with study and research eight decades of the history of Iraqi singing, from 1900 to 1980. Al Aghani is still considered the largest Iraqi singing artistic show to date.
                 </p>
-                <p>
-                  With the 20 years of experience I have playing the Oud, I have developed a unique teaching method that will help you learn the Oud quickly and efficiently.
-                  I learned Oud from the greatest masters of the Oud in the Middle East, and I am excited to share my knowledge with you.
-                </p>
+                <p dir="rtl">
+                  يعمل في مجالات الموسيقى والإنتاج التلفزيوني، وتدريس آلة العود. أنشأ وأدار شركة العابر للإنتاج التلفزيوني في بغداد وأنتج من خلالها عددا كبيرا من البرامج التلفزيونية منها ما يزيد على 150 ساعة من
+                   الأفلام والبرامج الوثائقية. أعد وساهم في إعداد عدد من البرامج الفنية، اشهرها برنامج الأغاني الذي أعده وأشرف على إنتاجه لصالح قناة الحرة عام 2005.
+هذا البرنامج في ستين ساعة تلفزيونية، تناول فيه بالدراسة والبحث ثمانية عقود من تاريخ الغناء العراقي ، من 1900 الى 1980. هذا البرنامج الذي كتب عنه الكثير، ما زال إلى الآن يعد أضخم إنتاج فني غنائي عراقي.
+                    </p>
               </div>
               {/*<div className="right w-[50%]">
                 <ul>
@@ -448,7 +447,7 @@ const About = () => {
                 </li>
               </ul>
             </div>
-          </div>*/}
+          </div>
           <div className="testimonials w-full h-auto clear-both float-left mb-[90px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
               <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
@@ -542,7 +541,7 @@ const About = () => {
                 </SwiperSlide>
               </Swiper>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </SectionContainer>

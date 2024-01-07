@@ -2,6 +2,7 @@ import { Fragment, useEffect, useState } from "react";
 import Modal from "react-modal";
 import SectionContainer from "../layout/SectionContainer";
 import { imgToSvg } from "../utils";
+import CalendlyEmbed from "./CalendlyEmbed";
 
 const Service = () => {
   useEffect(() => {
@@ -14,7 +15,7 @@ const Service = () => {
       icon: "assets/img/svg/3d.svg",
       text: "Learning the Oud is a journey that requires patience and dedication. This is a perfect starting position",
       date: "",
-      title: "6 Lesson ($300) Package ",
+      title: "6 Lesson Package ($300)",
       text1:
         "This beginner package is designed for students who have never played the Oud before. The package includes 6 lessons, each lesson is 1 hour and 15 minutes  long. The lessons will cover the basics of Oud playing, including how to hold the Oud, and how to play basic songs. The lessons will be taught in English and Arabic.",
       text2:
@@ -27,7 +28,7 @@ const Service = () => {
       icon: "assets/img/svg/play.svg",
       text: "This package allows students to learn the basics of Oud playing, and move on to more advanced techniques.",
       date: "August 9, 2021",
-      title: "14 Lesson ($600) Package (2 lessons for free)",
+      title: "14 Lesson  Package ($600) (2 lessons for free)",
       text1:
         "This package is best for those looking to learn the basics and move onto advanced techniques. The package includes 14 lessons, each lesson is 1 hour and 15 minutes long.",
       text2:
@@ -40,7 +41,7 @@ const Service = () => {
       icon: "assets/img/svg/character.svg",
       text: "This package is a comprehensive course that will guide students to become advanced Oud players.",
       date: "August 9, 2021",
-      title: "24 Lesson ($1000) Package (4 lessons for free)",
+      title: "24 Lesson  Package ($1000) (4 lessons for free)",
       text1:
         "This package will teach the more advanced techniques of playing the Oud. We recommend this package for those who have learned the basics of Oud and want to take their skills to the next level.",
       text2:
@@ -70,7 +71,7 @@ const Service = () => {
                 Lessons
               </span>
             </div>
-            <p>All lessons can be tought in English or Arabic!</p>
+            <p>All lessons can be tought in English or Arabic, and are available in person or online via Zoom, Skype or Facetime!</p>
             <div className="service_list w-full h-auto clear-both float-left mt-[60px]">
               <ul className="ml-[-50px] flex flex-wrap">
                 {services.map((item, i) => (
@@ -114,6 +115,7 @@ const Service = () => {
                       <h3 className="title font-medium text-[24px] text-[#333] mb-[15px] transition-all duration-300">
                         Schedule your lessons here!
                       </h3>
+                      
                       <p className="text transition-all duration-300">
                         
                       </p>
@@ -122,6 +124,8 @@ const Service = () => {
                       
                     </div>
                   </li>
+                  <CalendlyEmbed url="https://calendly.com/skhilkhal"></CalendlyEmbed>
+                  
               </ul>
             </div>
           </div>
