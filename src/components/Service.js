@@ -12,13 +12,13 @@ const Service = () => {
     {
       img: "assets/img/news/1.jpg",
       icon: "assets/img/svg/3d.svg",
-      text: "Learning the oud is a journey that requires patience and dedication. This is a perfect starting position",
+      text: "Learning the Oud is a journey that requires patience and dedication. This is a perfect starting position",
       date: "",
       title: "6 Lesson ($300) Package ",
       text1:
         "This beginner package is designed for students who have never played the Oud before. The package includes 5 lessons, each lesson is 1 hour and 15 minutes  long. The lessons will cover the basics of Oud playing, including how to hold the Oud, and how to play basic songs. The lessons will be taught in English and Arabic.",
       text2:
-        "Oud parts, and types\n- Sitting and body position\n\n- Naming the strings\n\n- oud picks and how to hold\n\n- tuning the oud\n\n- Right hand and first exercises\n\n- Left hand and thumb position\n\n- Left hand finger exercises\n\n- Musical scale\n\n- Exercises on the musical scale",
+        "Oud parts, and types\n- Sitting and body position\n\n- Naming the strings\n\n- Oud picks and how to hold\n\n- tuning the Oud\n\n- Right hand and first exercises\n\n- Left hand and thumb position\n\n- Left hand finger exercises\n\n- Musical scale\n\n- Exercises on the musical scale",
       text3:
         "",
     },
@@ -29,7 +29,7 @@ const Service = () => {
       date: "August 9, 2021",
       title: "14 Lesson ($600) Package (2 lessons for free)",
       text1:
-        "This package allows students to learn the basics of Oud playing, and then move on to more advanced techniques. The package includes 14 lessons, each lesson is 1 hour and 15 minutes long.",
+        "This package is best for those looking to learn the basics and move onto advanced techniques. The package includes 14 lessons, each lesson is 1 hour and 15 minutes long.",
       text2:
         "",
       text3:
@@ -38,16 +38,17 @@ const Service = () => {
     {
       img: "assets/img/news/3.jpg",
       icon: "assets/img/svg/character.svg",
-      text: "Developing website involves creating your website, making it one of the most vital parts of your marketing",
+      text: "This package is a comprehensive course that will guide students to become advanced Oud players.",
       date: "August 9, 2021",
       title: "24 Lesson ($1000) Package (4 lessons for free)",
       text1:
-        "This package will teach the more advanced techniques of playing the oud. We recommend this package for those who have learned the basics of oud and want to take their skills to the next level.",
+        "This package will teach the more advanced techniques of playing the Oud. We recommend this package for those who have learned the basics of Oud and want to take their skills to the next level.",
       text2:
         "Package 2 + \n\n The second position of the left hand \n\n - Quarter Tone Pitch, Maqamat with Quarter tone pitch \n\n -Musical Improvisation (Taqsim) \n\n -Singing with the Oud \n\nRhythm using Monotron \n\n -The basics of musical notation",
       text3:
         "",
     },
+    
     
       
   ];
@@ -102,6 +103,24 @@ const Service = () => {
                     </div>
                   </li>
                 ))}
+                <li className="mb-[50px] w-1/2 pl-[50px]" >
+                    <div className="list_inner w-full h-auto clear-both float-left relative border-solid border-[#b9b8c3] border py-[70px] px-[40px] text-center transition-all duration-300 hover:bg-[#333]">
+                      <img
+                        className="svg inline-block w-[60px] h-[60px] text-[#333] mb-[27px] transition-all duration-300"
+                        src="assets/img/svg/3d.svg"
+                        alt="image"
+                      />
+                      <h3 className="title font-medium text-[24px] text-[#333] mb-[15px] transition-all duration-300">
+                        Schedule your lessons here!
+                      </h3>
+                      <p className="text transition-all duration-300">
+                        
+                      </p>
+                      
+                      {/* Modalbox Info Start */}
+                      
+                    </div>
+                  </li>
               </ul>
             </div>
           </div>
@@ -126,7 +145,8 @@ const Service = () => {
               </div>
               <div className="description_wrap">
                 <div className="service_popup_informations w-full h-auto clear-both float-left">
-                  <div className="image">
+                  {/*Uncomment below for the images*/}
+                  {/*<div className="image">
                     <img src="assets/img/thumbs/4-2.jpg" alt="image" />
                     <div
                       className="main"
@@ -135,7 +155,7 @@ const Service = () => {
                         backgroundImage: `url(${modalContent.img})`,
                       }}
                     />
-                  </div>
+                  </div>*/}
                   <div className="main_title">
                     <h3>{modalContent.title}</h3>
                   </div>

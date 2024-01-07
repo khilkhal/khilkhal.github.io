@@ -51,16 +51,16 @@ const About = () => {
               {/* change this div classname to "left w-[40%]"*/}
               <div className="">
                 <p className="mb-[15px]">
-                  Hi! My name is <strong>Shukur Khilkhal.</strong> I am an oud 
-                  player, composer, and educator. I have been playing the oud for over 20 years,
+                  Hi! My name is <strong>Shukur Khilkhal.</strong> I am an Oud 
+                  player, composer, and educator. I have been playing the Oud for over 20 years,
                   and have the experience and knowledge to help you learn this beautiful instrument.
                   I teach students of all ages and levels, from beginners to advanced, and I am happy to teach 
                   in English, or Arabic. I am currently based Washington DC metro area, and I am available for in-person lessons,
                   or online lessons via Zoom, Skype, or FaceTime.
                 </p>
                 <p>
-                  With the 20 years of experience I have playing the oud, I have developed a unique teaching method that will help you learn the oud quickly and efficiently.
-                  I learned oud from the greatest masters of the oud in the Middle East, and I am excited to share my knowledge with you.
+                  With the 20 years of experience I have playing the Oud, I have developed a unique teaching method that will help you learn the Oud quickly and efficiently.
+                  I learned Oud from the greatest masters of the Oud in the Middle East, and I am excited to share my knowledge with you.
                 </p>
               </div>
               {/*<div className="right w-[50%]">
@@ -496,7 +496,7 @@ const About = () => {
                     <div className="text w-full h-auto clear-both float-left relative border-solid border-[#E5EDF4] border-2 p-[40px] mb-[30px]">
                       <i className="icon-quote-left absolute z-[1] text-[30px] top-[-29px] left-[50px]" />
                       <p>
-                        Shukur was one of the kindest and warmest people I have ever met. He was very patient with me and made sure I understood everything before moving on. I would highly recommend him to anyone looking to learn the oud.
+                        Shukur was one of the kindest and warmest people I have ever met. He was very patient with me and made sure I understood everything before moving on. I would highly recommend him to anyone looking to learn the Oud.
                       </p>
                     </div>
                     <div className="details w-full h-auto clear-both float-left flex items-center pl-[20px]">

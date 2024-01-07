@@ -35,7 +35,7 @@ const Home = () => {
           <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px]" />
           <TypingAnimation />
           <div className="cavani_tm_button transition_link">
-            <a href="#contact" onClick={() => navChange("contact")}>
+            <a href="#service" onClick={() => navChange("service")}>
               Schedule your first Oud lesson!
             </a>
           </div>

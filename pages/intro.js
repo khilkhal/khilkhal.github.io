@@ -18,7 +18,7 @@ const Intro = () => {
         <div className="cavani_tm_intro">
           <div className="main_title">
             <img src="assets/img/logo/dark.png" alt />
-            <p>Shukur Khilkhal - Renowned oud musician  </p>
+            <p>Shukur Khilkhal - Renowned Oud musician  </p>
           </div>
           <div className="demo_list">
             <ul>
