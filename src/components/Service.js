@@ -16,7 +16,7 @@ const Service = () => {
       date: "",
       title: "6 Lesson ($300) Package ",
       text1:
-        "This beginner package is designed for students who have never played the Oud before. The package includes 5 lessons, each lesson is 1 hour and 15 minutes  long. The lessons will cover the basics of Oud playing, including how to hold the Oud, and how to play basic songs. The lessons will be taught in English and Arabic.",
+        "This beginner package is designed for students who have never played the Oud before. The package includes 6 lessons, each lesson is 1 hour and 15 minutes  long. The lessons will cover the basics of Oud playing, including how to hold the Oud, and how to play basic songs. The lessons will be taught in English and Arabic.",
       text2:
         "Oud parts, and types\n- Sitting and body position\n\n- Naming the strings\n\n- Oud picks and how to hold\n\n- tuning the Oud\n\n- Right hand and first exercises\n\n- Left hand and thumb position\n\n- Left hand finger exercises\n\n- Musical scale\n\n- Exercises on the musical scale",
       text3:
@@ -70,6 +70,7 @@ const Service = () => {
                 Lessons
               </span>
             </div>
+            <p>All lessons can be tought in English or Arabic!</p>
             <div className="service_list w-full h-auto clear-both float-left mt-[60px]">
               <ul className="ml-[-50px] flex flex-wrap">
                 {services.map((item, i) => (
