@@ -88,6 +88,7 @@ const Header = () => {
                 ))}
               </ul>
             </div>
+            {/*
             <div className="social w-full float-left mb-[5px]">
               <ul>
                 <li className="mr-[8px] inline-block">
@@ -136,7 +137,7 @@ const Header = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div>*/}
             <div className="copyright w-full float-left">
               <p className="text-[#333] font-poppins">Copyright <a href="https://www.naramalhasani.com">NOM</a> © 2023</p>
             </div>
