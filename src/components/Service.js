@@ -15,11 +15,11 @@ const Service = () => {
       icon: "assets/img/svg/3d.svg",
       text: "Learning the Oud is a journey that requires patience and dedication. This is a perfect starting position",
       date: "",
-      title: "6 Lesson Package ($300)",
+      title: "6 Lesson Package ",
       text1:
-        "This beginner package is designed for students who have never played the Oud before. The package includes 6 lessons, each lesson is 1 hour and 15 minutes  long. The lessons will cover the basics of Oud playing, including how to hold the Oud, and how to play basic songs. The lessons will be taught in English and Arabic.",
+        "This beginner package is designed for students who have never played the Oud before. The package includes 6 lessons, each lesson is 1 hour and 15 minutes  long. The lessons will cover the basics of Oud playing, including how to hold the Oud, and how to play basic songs. The lessons will be taught in English and Arabic .",
       text2:
-        "Oud parts, and types\n- Sitting and body position\n\n- Naming the strings\n\n- Oud picks and how to hold\n\n- tuning the Oud\n\n- Right hand and first exercises\n\n- Left hand and thumb position\n\n- Left hand finger exercises\n\n- Musical scale\n\n- Exercises on the musical scale",
+        "Oud parts, and types\n- Sitting and body position\n\n- Naming the strings\n\n- Oud picks and how to hold\n\n- tuning the Oud\n\n- Right hand and first exercises\n\n- Left hand and thumb position\n\n- Left hand finger exercises\n\n- Musical scale\n\n- Exercises on the musical scale ($300)",
       text3:
         "-         اجزاء العود-         الجلسة ووضعية الجس-         تسمية الأوتار-         نوع الريشة وطريقة المسك-         الدوزان واستخدام التونر-         اليد اليمنى والتمارين الأولى-         اليد اليسرى ووضعية الإبهام-         تمارين أصابع اليد اليسرى-         السلم الموسيقي-         تمارين على السلم الموسيقي",
     },
@@ -28,11 +28,11 @@ const Service = () => {
       icon: "assets/img/svg/play.svg",
       text: "This package allows students to learn the basics of Oud playing, and move on to more advanced techniques.",
       date: "August 9, 2021",
-      title: "14 Lesson  Package ($600) (2 lessons for free)",
+      title: "14 Lesson  Package (2 lessons for free)",
       text1:
-        "This package is best for those looking to learn the basics and move onto advanced techniques. The package includes 14 lessons, each lesson is 1 hour and 15 minutes long.",
+        "This package is best for those looking to learn the basics and move onto advanced techniques. The package includes 14 lessons, each lesson is 1 hour and 15 minutes long. ",
       text2:
-        "Package 1 + \n\n Up and Down Picks \n\n -Maqamat \n\n -Musical Pitches, Bemol, Diez \n\n - Maqam Ajam \n\n -Maqam Rest \n\n -Excersizes",
+        "Package 1 + \n\n Up and Down Picks \n\n -Maqamat \n\n -Musical Pitches, Bemol, Diez \n\n - Maqam Ajam \n\n -Maqam Rest \n\n -Excersizes ($600)",
       text3:
         "الدروس الـ 6 الأولى، يضاف إليها 8 دروس هي:-         الريشة الصاعدة والنازلة-         تمارين الريشة-         الدرجات الموسيقية، البيكار والبيمول والدييز-         المقامات، الجنس والفرع-         مقام العجم-         مقام الرست-         تمارين",
     },
@@ -41,11 +41,11 @@ const Service = () => {
       icon: "assets/img/svg/character.svg",
       text: "This package is a comprehensive course that will guide students to become advanced Oud players.",
       date: "August 9, 2021",
-      title: "24 Lesson  Package ($1000) (4 lessons for free)",
+      title: "24 Lesson  Package  (4 lessons for free)",
       text1:
         "This package will teach the more advanced techniques of playing the Oud. We recommend this package for those who have learned the basics of Oud and want to take their skills to the next level.",
       text2:
-        "Package 2 + \n\n The second position of the left hand \n\n - Quarter Tone Pitch, Maqamat with Quarter tone pitch \n\n -Musical Improvisation (Taqsim) \n\n -Singing with the Oud \n\nRhythm using Monotron \n\n -The basics of musical notation",
+        "Package 2 + \n\n The second position of the left hand \n\n - Quarter Tone Pitch, Maqamat with Quarter tone pitch \n\n -Musical Improvisation (Taqsim) \n\n -Singing with the Oud \n\nRhythm using Monotron \n\n -The basics of musical notation ($1000)",
       text3:
         "الدروس الـ 14 الأولى يضاف إليها 10 دروس هي:-         الوضعية الثانية لليد اليسرى-         التون وربع التون-         التقاسيم، الدولاب، الجمل الموسيقية-         الغناء على العود-         الإيقاع، المونوتروم-         أساسيات النوطة",
     },

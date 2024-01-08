@@ -46,7 +46,12 @@ const Home = () => {
           <p></p>
           
           <TypingAnimation />
-          <div className="cavani_tm_button transition_link">
+          <div className="cavani_tm_button transition_link m-1">
+            <a href="#contact" onClick={() => navChange("contact")}>
+              Contact
+            </a>
+          </div>
+          <div className="cavani_tm_button transition_link m-1">
             <a href="#service" onClick={() => navChange("service")}>
               Schedule your first Oud lesson!
             </a>
