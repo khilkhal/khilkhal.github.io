@@ -8,7 +8,7 @@ import { CavaniContext } from "../Context";
 const navs = [
   { id: 1, name: "Home", href: "home" },
   { id: 2, name: "About", href: "about" },
-  /*{ id: 3, name: "Portfolio", href: "portfolio" },*/
+  { id: 3, name: "Videos", href: "portfolio" },
   { id: 4, name: "Lessons", href: "service" },
   /*{ id: 5, name: "News", href: "news" },*/
   { id: 6, name: "Contact", href: "contact" },
