@@ -54,9 +54,7 @@ const Portfolio = () => {
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
 
-  function toggleModalThree() {
-    setIsOpen3(!isOpen3);
-  }
+  
   function toggleModalFour() {
     setIsOpen4(!isOpen4);
   } 
@@ -82,7 +80,16 @@ const Portfolio = () => {
         onClose={() => setIsOpen2(false)}
         modalVideoClose="mfp-close"
       />
-      <Soundcloud isOpen3={isOpen3} toggleModalThree={toggleModalThree} />
+      <ModalVideo
+        channel="youtube"
+        autoplay={true}
+        isOpen={isOpen3}
+        videoId="HqhuT4vR_dE"
+        animationSpeed={300}
+        onClose={() => setIsOpen3(false)}
+        modalVideoClose="mfp-close"
+      />
+      
       <Detail isOpen4={isOpen4} toggleModalFour={toggleModalFour} />
       <SectionContainer navName="portfolio">
         <div className="section_inner">
@@ -176,6 +183,33 @@ const Portfolio = () => {
                   </div>
                 </li>
                 
+
+                <li className="youtube mb-[50px] w-1/2 float-left pl-[50px] item__">
+                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
+                    <div className="image relative">
+                      <img
+                        className="relative opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt
+                      />
+                      <div
+                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
+                        data-img-url="assets/img/Shukur/concert2.png"
+                      />
+                      <div className="details">
+                        <h3 className="text-[16px] mb-[2px] font-semibold" dir="rtl">
+                            أمسية على العود من تقديم الباحث شكر خلخال 
+                        </h3>
+                        <span className="text-[14px]">Youtube</span>
+                      </div>
+                      <a
+                        onClick={() => setIsOpen3(true)}
+                        className="cavani_tm_full_link popup-youtube"
+                        href="#"
+                      />
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>

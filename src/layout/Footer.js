@@ -6,7 +6,7 @@ const Footer = () => {
       </div>{
       <div className="social">
         <ul>
-          <li className="mr-[15px] inline-block">
+          <li className="mr-[35px] inline-block">
             <a className="text-[#333]" href="https://www.youtube.com/channel/UC5mb8llTAOiOLddX3S6DX3g">
               <img
                 className="svg inline-block"
