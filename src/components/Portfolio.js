@@ -89,8 +89,17 @@ const Portfolio = () => {
         onClose={() => setIsOpen3(false)}
         modalVideoClose="mfp-close"
       />
+      <ModalVideo
+        channel="youtube"
+        autoplay={true}
+        isOpen={isOpen4}
+        videoId="V8CkpUYWEcE"
+        animationSpeed={300}
+        onClose={() => setIsOpen4(false)}
+        modalVideoClose="mfp-close"
+      />
       
-      <Detail isOpen4={isOpen4} toggleModalFour={toggleModalFour} />
+      
       <SectionContainer navName="portfolio">
         <div className="section_inner">
           <div className="cavani_tm_portfolio w-full h-auto clear-both float-left mb-[70px]">
@@ -204,6 +213,33 @@ const Portfolio = () => {
                       </div>
                       <a
                         onClick={() => setIsOpen3(true)}
+                        className="cavani_tm_full_link popup-youtube"
+                        href="#"
+                      />
+                    </div>
+                  </div>
+                </li>
+
+                <li className="youtube mb-[50px] w-1/2 float-left pl-[50px] item__">
+                  <div className="list_inner w-full h-auto clear-both float-left relative overflow-hidden">
+                    <div className="image relative">
+                      <img
+                        className="relative opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt
+                      />
+                      <div
+                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center"
+                        data-img-url="assets/img/Shukur/pocast.png"
+                      />
+                      <div className="details">
+                        <h3 className="text-[16px] mb-[2px] font-semibold" dir="rtl">
+                            قصة الغناء العراقي الحزين منذ مائة عام 
+                        </h3>
+                        <span className="text-[14px]">Youtube</span>
+                      </div>
+                      <a
+                        onClick={() => setIsOpen4(true)}
                         className="cavani_tm_full_link popup-youtube"
                         href="#"
                       />

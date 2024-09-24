@@ -13,7 +13,7 @@ const Service = () => {
     {
       img: "assets/img/news/1.jpg",
       icon: "assets/img/svg/3d.svg",
-      text: "Learning the Oud is a journey that requires patience and dedication. This is a perfect starting position",
+      text: "This is a perfect starting position for beginner Oud Musicians.",
       date: "",
       title: "6 Lesson Package ",
       text1:
@@ -24,31 +24,18 @@ const Service = () => {
         "-         اجزاء العود-         الجلسة ووضعية الجس-         تسمية الأوتار-         نوع الريشة وطريقة المسك-         الدوزان واستخدام التونر-         اليد اليمنى والتمارين الأولى-         اليد اليسرى ووضعية الإبهام-         تمارين أصابع اليد اليسرى-         السلم الموسيقي-         تمارين على السلم الموسيقي",
     },
     {
-      img: "assets/img/news/2.jpg",
-      icon: "assets/img/svg/play.svg",
-      text: "This package allows students to learn the basics of Oud playing, and move on to more advanced techniques.",
-      date: "August 9, 2021",
-      title: "14 Lesson  Package (2 lessons for free)",
-      text1:
-        "This package is best for those looking to learn the basics and move onto advanced techniques. The package includes 14 lessons, each lesson is 1 hour and 15 minutes long. ",
-      text2:
-        "Package 1 + \n\n Up and Down Picks \n\n -Maqamat \n\n -Musical Pitches, Bemol, Diez \n\n - Maqam Ajam \n\n -Maqam Rest \n\n -Excersizes ($600)",
-      text3:
-        "الدروس الـ 6 الأولى، يضاف إليها 8 دروس هي:-         الريشة الصاعدة والنازلة-         تمارين الريشة-         الدرجات الموسيقية، البيكار والبيمول والدييز-         المقامات، الجنس والفرع-         مقام العجم-         مقام الرست-         تمارين",
-    },
-    {
       img: "assets/img/news/3.jpg",
       icon: "assets/img/svg/character.svg",
-      text: "This package is a comprehensive course that will guide students to become advanced Oud players.",
+      text: "This is a comprehensive course that will guide students to become advanced Oud players.",
       date: "August 9, 2021",
-      title: "24 Lesson  Package  (4 lessons for free)",
+      title: "24 Lesson  Package ($1000)",
       text1:
         "This package will teach the more advanced techniques of playing the Oud. We recommend this package for those who have learned the basics of Oud and want to take their skills to the next level.",
       text2:
-        "Package 2 + \n\n The second position of the left hand \n\n - Quarter Tone Pitch, Maqamat with Quarter tone pitch \n\n -Musical Improvisation (Taqsim) \n\n -Singing with the Oud \n\nRhythm using Monotron \n\n -The basics of musical notation ($1000)",
+        "Oud parts, and types\n- Sitting and body position\n\n- Naming the strings\n\n- Oud picks and how to hold\n\n- tuning the Oud\n\n- Right hand and first exercises\n\n- Left hand and thumb position\n\n- Left hand finger exercises\n\n- Musical scale\n\n- Exercises on the musical scale \n Up and Down Picks \n\n -Maqamat \n\n -Musical Pitches, Bemol, Diez \n\n - Maqam Ajam \n\n -Maqam Rest \n\n -Excersizes + \n\n The second position of the left hand \n\n - Quarter Tone Pitch, Maqamat with Quarter tone pitch \n\n -Musical Improvisation (Taqsim) \n\n -Singing with the Oud \n\nRhythm using Monotron \n\n -The basics of musical notation ",
       text3:
         "الدروس الـ 14 الأولى يضاف إليها 10 دروس هي:-         الوضعية الثانية لليد اليسرى-         التون وربع التون-         التقاسيم، الدولاب، الجمل الموسيقية-         الغناء على العود-         الإيقاع، المونوتروم-         أساسيات النوطة",
-    },
+    }
     
     
       
@@ -71,7 +58,7 @@ const Service = () => {
                 Lessons
               </span>
             </div>
-            <p>All lessons can be tought in English or Arabic, and are available in person or online via Zoom, Skype or Facetime!</p>
+            <p>All lessons can be tought in English or Arabic, and are available in person or online via Zoom, Skype or Facetime.</p>
             <div className="service_list w-full h-auto clear-both float-left mt-[60px]">
               <ul className="ml-[-50px] flex flex-wrap">
                 {services.map((item, i) => (
@@ -105,6 +92,24 @@ const Service = () => {
                     </div>
                   </li>
                 ))}
+                {/*
+                  Add this to list above
+                
+                {
+                  img: "assets/img/news/2.jpg",
+                  icon: "assets/img/svg/play.svg",
+                  text: "This package allows students to learn the basics of Oud playing, and move on to more advanced techniques.",
+                  date: "August 9, 2021",
+                  title: "14 Lesson  Package (2 lessons for free)",
+                  text1:
+                    "This package is best for those looking to learn the basics and move onto advanced techniques. The package includes 14 lessons, each lesson is 1 hour and 15 minutes long. ",
+                  text2:
+                    "Package 1 + \n\n Up and Down Picks \n\n -Maqamat \n\n -Musical Pitches, Bemol, Diez \n\n - Maqam Ajam \n\n -Maqam Rest \n\n -Excersizes ($600)",
+                  text3:
+                    "الدروس الـ 6 الأولى، يضاف إليها 8 دروس هي:-         الريشة الصاعدة والنازلة-         تمارين الريشة-         الدرجات الموسيقية، البيكار والبيمول والدييز-         المقامات، الجنس والفرع-         مقام العجم-         مقام الرست-         تمارين",
+                },
+
+
                 <li className="mb-[50px] w-1/2 pl-[50px]" >
                     <div className="list_inner w-full h-auto clear-both float-left relative border-solid border-[#b9b8c3] border py-[70px] px-[40px] text-center transition-all duration-300 hover:bg-[#333]">
                       <img
@@ -120,10 +125,10 @@ const Service = () => {
                         
                       </p>
                       
-                      {/* Modalbox Info Start */}
+                      {/* Modalbox Info Start 
                       
                     </div>
-                  </li>
+                  </li>*/ }
                   <CalendlyEmbed url="https://calendly.com/skhilkhal"></CalendlyEmbed>
                   
               </ul>
